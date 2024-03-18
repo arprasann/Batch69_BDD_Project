@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.156">
+    <testcase classname="Amazon Invalid LoginPage Functionality" name="Validate Invalid LoginPage" time="26.731">
+        <system-out><![CDATA[Given Chrome Browser Open...................................................passed
+Then Enter the URL..........................................................passed
+Then Move to Hello Sigin In Element.........................................passed
+Then Click on Sigin In Button...............................................passed
+Then Enter Mobile Number or Email ID........................................passed
+Then Click on Continue Button...............................................passed
+Then Enter Invalid Password.................................................passed
+Then Click on Login Button..................................................passed
+Then Validate Error Msg.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

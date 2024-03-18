@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-18T04:20:00.592Z",
+        "line": 4,
+        "name": "Validate Invalid LoginPage",
+        "description": "",
+        "id": "amazon-invalid-loginpage-functionality;validate-invalid-loginpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8424477400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Chrome Browser Open",
+            "match": {
+              "location": "step_definations.LoginPage.chrome_Browser_Open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5615020400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the URL",
+            "match": {
+              "location": "step_definations.LoginPage.enter_the_URL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2128314600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Move to Hello Sigin In Element",
+            "match": {
+              "location": "step_definations.LoginPage.move_to_Hello_Sigin_In_Element()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3508165700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Sigin In Button",
+            "match": {
+              "location": "step_definations.LoginPage.click_on_Sigin_In_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2786094900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Mobile Number or Email ID",
+            "match": {
+              "location": "step_definations.LoginPage.enter_Mobile_Number_or_Email_ID()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3335596300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Continue Button",
+            "match": {
+              "location": "step_definations.LoginPage.click_on_Continue_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2167606300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter Invalid Password",
+            "match": {
+              "location": "step_definations.LoginPage.enter_Invalid_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4245395600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "step_definations.LoginPage.click_on_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2180988700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate Error Msg",
+            "match": {
+              "location": "step_definations.LoginPage.validate_Error_Msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Amazon_InvalidLoginPage"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Invalid LoginPage Functionality",
+    "description": "",
+    "id": "amazon-invalid-loginpage-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Amazon_Invalid_LoginPage.feature",
+    "tags": []
+  }
+]
